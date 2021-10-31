@@ -1,0 +1,25 @@
+.add-offer form {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.add-offer form input {
+  width: 50%;
+  height: 35px;
+  margin-bottom: 15px;
+}
+
+.background-color {
+    /* background-color: F3F5F9; */
+    background-color: gray;
+}
+
+.btn-color{
+    background-color: orange;
+}
+.text-color{
+    color: pink;
+}

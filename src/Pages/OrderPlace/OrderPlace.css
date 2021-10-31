@@ -1,0 +1,13 @@
+.order-style form {
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .order-style form input {
+    width: 50%;
+    height: 35px;
+    margin-bottom: 15px;
+  }

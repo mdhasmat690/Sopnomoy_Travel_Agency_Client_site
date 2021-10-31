@@ -1,0 +1,19 @@
+.display-style{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    border: 1px solid red;
+}
+
+@media only screen and (max-width: 600px){
+    .display-style{
+        grid-template-columns: repeat(3,1fr);
+        font-size: 10px;    
+        
+    }
+
+    
+}
+
+.bg-color-style {
+    background-color: khaki;
+}
