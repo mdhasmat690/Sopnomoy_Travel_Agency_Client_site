@@ -40,9 +40,9 @@ function App() {
               <ManageOrder></ManageOrder>
             </PrivetRoute>
 
-            <Route path="/createNewOffer">
+            <PrivetRoute path="/createNewOffer">
               <CreateNewOffer></CreateNewOffer>
-            </Route>
+            </PrivetRoute>
             <Route path="/login">
               <Login></Login>
             </Route>
