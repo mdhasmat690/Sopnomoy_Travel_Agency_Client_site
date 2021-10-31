@@ -2,10 +2,6 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 
 const TopBanner = () => {
-
-    
-
-
   return (
     <div className="container">
       <h2 className="my-3 text-info">Sopnomoy Travel Agency</h2>
@@ -17,7 +13,7 @@ const TopBanner = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
+            <h2>India</h2>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -29,7 +25,7 @@ const TopBanner = () => {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
+            <h2>Spain</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -41,7 +37,7 @@ const TopBanner = () => {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h2>Thailand</h2>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
